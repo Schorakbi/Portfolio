@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Space Survey Form</title> 
+    <meta charset='UTF-8'/>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <h1 id='title'>Space Survey Form</h1>
+    <p id='description'>It is all about space!</p>
+    <form id='survey-form' >
+      <fieldset class='border-bottom '>
+        <label id='name-label'>Name : <input id='name' type='text' required placeholder='Enter yout name'></label>
+        <label id='email-label'>Email : <input id='email' type='email' required placeholder='Enter your email'></label>
+        <label id='number-label'>Age(optional) : <input id='number' type='number' min='13' max='120' placeholder='Age'></label>
+        <label>What is your gender ?
+          <select id='dropdown'>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class='border-top border-bottom '>
+        <label>Imagine someone telling you that you can travel to space, but it's a 50% chance you will die. Would you do it?</label>
+        <label><input type='radio' name='1' value='1' class='inline' />Yes</label>
+        <label><input type='radio' name='1' value='2' class='inline' />Maybe</label>
+        <label><input type='radio' name='1' value='3' class='inline' />Absolutely not</label>
+      </fieldset>
+      <fieldset class='border-top border-bottom '>
+        <label>What's your favourite solar system planet ? </label>
+        <label><input type='checkbox' value='Mercury' class='inline'>Mercury</label>
+        <label><input type='checkbox' value='Venus' class='inline'>Venus</label>
+        <label><input type='checkbox' value='Earth' class='inline'>Earth</label>
+        <label><input type='checkbox' value='Mars' class='inline'>Mars</label>
+        <label><input type='checkbox' value='Jupiter' class='inline'>Jupiter</label>
+        <label><input type='checkbox' value='Saturn' class='inline'>Saturn</label>
+        <label><input type='checkbox' value='Uranus' class='inline'>Uranus</label>
+        <label><input type='checkbox' value='Neptune' class='inline'>Neptune</label>
+      </fieldset>
+      <fieldset class='border-top border-bottom '>
+        <label>What is your favorite planet and why ?(Describe it for us)
+          <textarea rows='3' cols='30' placeholder='My favourite planet is ...'></textarea>
+        </label>
+      </fieldset>
+      <fieldset class='border-top '>
+        <input type='submit' id='submit' value='Submit'>
+      </fieldset>
+    
+
+
+      
+
+
+
+    </form>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,75 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align:center;
+  
+  
+  }
+  body{
+    background-color: rgba(7, 142, 7, 0.5);
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+  }
+  .Text{
+    display : block;
+    font-size: 0.9em;
+    text-align: center;
+    font-family : arial;
+    padding-bottom : 25px;
+    padding-top : 30px;
+  
+  }
+  
+  .White{
+    height : 50px;
+    width : 100%;
+    margin:0;
+    background-color : white;
+  
+  }
+  .KIW1{
+    width : 10%;
+    content : url(https://upload.wikimedia.org/wikipedia/commons/8/82/KhalidBinWalid.png);
+    max-width : 15%;
+    height:auto;
+    display : block;
+  
+    
+    
+  }
+  .KIW2{
+    width: 10%;
+    content : url(https://upload.wikimedia.org/wikipedia/commons/8/82/KhalidBinWalid.png);
+    display:block;
+    max-width : 15%;
+    height:auto;
+    
+  
+  
+    
+    
+    
+  }
+  .floatLeft { float: left; }
+  .floatRight { float: right; }
+  h3{
+    text-align : center;
+    
+  }
+  li {
+    text-align : left
+  }
+  img {
+    display : block;
+    width : 100%;
+    max-width : 100%;
+  }

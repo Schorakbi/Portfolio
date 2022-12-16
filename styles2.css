@@ -1,0 +1,86 @@
+div{
+    background-color : #f7f7f7;
+    border: 1px solid transparent;
+  
+     
+    
+  }
+  body,html{
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  body{
+    margin : 0 0 0 320px;
+  }
+  
+  code{
+    background-color : #f7f7f7;
+    border: 1px solid transparent;
+    width : 100%;
+  }
+  table,table td, table th{
+    border : 5px solid black ;
+    vertical-align : middle;
+    border-collapse : collapse;
+    padding : 12px;
+    width : 500px;
+  }
+  thead{
+    background-color :#f7f7f7;
+  }
+  a:link {
+           color: deepskyblue;;
+           background-color: transparent;
+           text-decoration: none;
+        }
+  a:visited {
+           color: purple;
+           background-color: transparent;
+           text-decoration: none;
+        }
+   a:active {
+           color: yellow;
+           background-color: transparent;
+        }
+  section li{
+    margin : 15px 0px 0px 20px;
+  
+  }
+  li {
+      display: list-item;
+  }
+  #navbar {
+      position: fixed;
+      min-width: 290px;
+      top: 0px;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      border-right: solid;
+      border-color: rgba(0, 22, 22, 0.4);
+  }
+  nav{
+    display : block;
+  }
+  header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: thin;
+  }
+  
+  .Here{
+    border-bottom : solid;
+    list-style : none;
+    padding : 15px;
+  
+  }
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  }
